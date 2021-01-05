@@ -1,0 +1,54 @@
+.wrapper{
+  position: about__content;
+  top: inherit;
+  left: inherit;
+  transform: translate(auto, auto);
+  width: auto;
+}
+
+.wrapper span{
+  margin: 0;
+  line-height: 1;
+  color: transparent;
+  background-image: linear-gradient(to left, #FF0000, #2ecc71, #3498db, #9b59b6, #f39c12);
+  -webkit-background-clip: text;
+  animation: animate 3.5s linear infinite;
+  -webkit-background-size: 500%;
+  background-size: 500%;
+  text-align: justify;
+}
+
+.wrapper h2{
+  margin: 0;
+  line-height: 1;
+  color: transparent;
+  background-image: linear-gradient(to left, #FF0000, #2ecc71, #3498db, #9b59b6, #f39c12);
+  -webkit-background-clip: text;
+  animation: animate 3.5s linear infinite;
+  -webkit-background-size: 500%;
+  background-size: 500%;
+  text-align: justify;
+}
+
+.word-meaning{
+    margin: 0;
+    line-height: 1;
+    color: transparent;
+    background-image: linear-gradient(315deg, #ec2F4B, #8E2DE2 0%, #91EAE4, #4A00E0 74%, #C0C0C0);
+    -webkit-background-clip: text;
+    animation: animate 3.5s linear infinite;
+    -webkit-background-size: 500%;
+    background-size: 500%;
+    text-align: justify;
+}
+
+@keyframes animate {
+  0%{
+    background-position: 0 100%;
+  }
+  50%{
+    background-position: 100% 0;
+  }
+  100%{
+    background-position: 0 100%;
+  }
